@@ -1,0 +1,11 @@
+source tony-dj/bin/activate
+
+python manage.py runserver
+
+
+deactivate
+________________________________
+
+sudo pacman -S git
+
+https://github.com/tonypithony/my-first-blog.git
