@@ -4,13 +4,16 @@
     </head>
     <body>
     	<div>
-        	<h2>Hi there!</h2>
-        	<p>published: 05.07.2018, 00:00</p>
-        </div>
+    <h1><a href="/">Tony Blog</a></h1>
+</div>
 
-        <div>
-        	<h1>It works!</h1>
-        </div>
+{% for post in posts %}
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
         
     </body>
 </html>
