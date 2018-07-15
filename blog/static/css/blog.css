@@ -45,6 +45,7 @@ h1, h2, h3, h4 {
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+    font-family: 'Gaegu','Chela One', cursive;
 }
 
 .post {
@@ -54,4 +55,8 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
